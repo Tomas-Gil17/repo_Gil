@@ -1,0 +1,6 @@
+¡VAMOS
+ARGENTINA!
+¡VAMOS MESSI!
+root:x:0:0:root:/root:/bin/bash
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash

@@ -1,0 +1,98 @@
+    1  ssh-keygen -t ed25519
+    2  ls -la
+    3  cd .ssh
+    4  ls -l
+    5  cat id_ed25519.pub 
+    6  cd ..
+    7  ls -l
+    8  cd repogit
+    9  ls -l
+   10  pwd
+   11  git clone git@github.com:Tomas-Gil17/repo_Gil.git
+   12  ls -l
+   13  cd repo_Gil/
+   14  echo "¡VAMOS ARGENTINA!"
+   15  echo "¡VAMOS ARGENTINA!" > argentina.txt
+   16  ls
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit -m "Este es mi primer commit"
+   21  git status
+   22  git config user.giltomasantonio03@gmail.com
+   23  git config --global user.Tomas-Gil17
+   24  git status
+   25  git commit -m "Este es mi primer commit"
+   26  git config --global user.email "giltomasantonio03@gmail.com"
+   27  git config --global user.name "Tomas-Gil17"
+   28  git status
+   29  git commit -m "Este es mi primer commit"
+   30  git status
+   31  git push
+   32  cat /etc/passwd
+   33  head /etc/passwd
+   34  head -n2 /etc/passwd
+   35  tail -n3 /etc/passwd
+   36  grep bash /etc/passwd
+   37  grep -n bash /etc/passwd
+   38  grep bash /etc/passwd > archivo2.txt
+   39  ls -l
+   40  cat archivo2.txt 
+   41  sort archivo2.txt 
+   42  ls
+   43  cd repogit
+   44  ls
+   45  cd repo_Gil/
+   46  ls
+   47  cat << end > archivo3.txt
+   48  ¡VAMOS
+   49  ARGENTINA!
+   50  end
+   51  cat archivo3.txt 
+   52  bc <<< 5+5
+   53  echo "¡VAMOS MESSI!" >> archivo3.txt 
+   54  cat archivo3.txt 
+   55  cat archivo3.txt  archivo2.txt > archivo4.txt
+   56  cat archivo4.txt 
+   57  ls -1
+   58  cat argentina.txt archivo3.txt > archivo5.txt
+   59  cat archivo5.txt 
+   60  cat archivo5.txt | head -n1
+   61  cat /proc/cpuinfo
+   62  cat /proc/cpuinfo | grep model name
+   63  cat /proc/cpuinfo | grep model
+   64  cat /proc/cpuinfo | grep model | head -n2
+   65  cat /proc/cpuinfo | grep name | head -n2
+   66  cat /proc/cpuinfo | grep name | head -n1
+   67  exit
+   68  pwd
+   69  ls
+   70  cd repogit
+   71  ls
+   72  cd ..
+   73  git clone pwd
+   74  pwd
+   75  ssh-keygen -t ed25516
+   76  shh-keygen -t ed25519
+   77  ls
+   78  whoami
+   79  pwd
+   80  echo "¡Vamos Argentina!"
+   81  man echo
+   82  git clone [200~https://github.com/upszot/UTN-FRA_SO_Vagrant.git~
+   83  cd repogit
+   84  git clone [200~https://github.com/upszot/UTN-FRA_SO_Vagrant.git~
+   85  git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+   86  echo "¡VAMOS ARGENTINA CARAJO!"
+   87  whoami
+   88  echo "¡Vamos Argentina!"
+   89  man echo
+   90  ls
+   91  cd repogit
+   92  ls
+   93  vagrant halt
+   94  ls
+   95  cd repo_Gil/
+   96  ls
+   97  history
+   98  history > historial.txt
